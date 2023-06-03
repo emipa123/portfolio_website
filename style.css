@@ -1,0 +1,201 @@
+/* General */
+body {
+  background-color: #1f1f1f;
+  max-width: 1800px;
+  margin: 0 auto;
+  font-family: "Glacial Indifference", sans-serif;
+}
+
+p {
+  color: #f0efe8;
+  font-family: "Glacial Indifference", sans-serif;
+}
+
+h1 {
+  color: #f0efe8;
+}
+/* Fonts */
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
+}
+
+/* Landingpage */
+.forside_h1 {
+  color: #f0efe8;
+  font-size: 297px;
+}
+
+.forside_h2 {
+  color: #f0efe8;
+  font-size: 256px;
+}
+/* Portfolio-menu */
+
+/*************************/
+
+/* Web */
+
+/* UX */
+
+/* Animation */
+
+/* Indhold */
+
+/* Portfolio */
+
+/*************************/
+
+/* Om */
+
+/* Kontakt */
+
+/* Navbar */
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-grow: 1;
+  padding-left: 300px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #f0efe8;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.menu a:hover {
+  color: #959fa7;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #f0efe8;
+  margin-bottom: 5px;
+}
+
+.burger {
+  display: none;
+}
+.logo a {
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 4rem;
+  right: 30rem;
+  color: #f0efe8;
+  text-decoration: solid;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: transparent;
+    font-family: "Glacial Indifference", sans-serif;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f0efe8;
+  }
+
+  nav {
+    margin-left: 12rem;
+    color: #f0efe8;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    z-index: 20;
+    margin-left: -13rem;
+  }
+
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  nav.active .menu {
+    display: block;
+    color: #f0efe8;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 4;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
+  .logo a {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 4rem;
+    right: -9rem;
+    color: #f0efe8;
+    text-decoration: solid;
+    font-weight: bolder;
+  }
+}
