@@ -22,7 +22,14 @@ img {
     padding-top: 30px;
   }
 }
-
+@media (min-width: 800px) {
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    image-resolution: 300dpi;
+  }
+}
 /* General */
 body {
   background-color: #1f1f1f;

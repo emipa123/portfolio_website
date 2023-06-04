@@ -1,0 +1,26 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* portfolio menu */
+
+@media (min-width: 800px) {
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    gap: 30px;
+  }
+
+  .grid1_1 a {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .grid1_1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+}
