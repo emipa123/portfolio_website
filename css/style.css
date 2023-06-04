@@ -12,7 +12,7 @@ img {
 }
 
 .footer_forside {
-  background-color: #02032e;
+  background-color: #1f1f1f;
   color: white;
 }
 
@@ -75,7 +75,51 @@ h1 {
   }
 }
 /* Portfolio-menu */
+.main_menu {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
+.img-menu {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.h1_menu {
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .grid1_1 a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .grid1_1 .hover-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .grid1_1 a:hover .hover-content {
+    opacity: 1;
+  }
+
+  .grid1_1 .hover-content span {
+    color: #f0efe8;
+    font-weight: bold;
+    font-size: 30px;
+  }
+}
 /*************************/
 
 /* Web */
@@ -141,7 +185,8 @@ nav {
   color: #f0efe8;
   text-decoration: solid;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 25px;
+  padding-right: 45px;
 }
 
 @media screen and (max-width: 600px) {
@@ -197,6 +242,7 @@ nav {
     text-decoration: solid;
     font-weight: bold;
     font-size: 25px;
+    padding-right: 950px;
   }
 }
 /* Footer */
