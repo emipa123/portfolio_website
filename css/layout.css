@@ -5,12 +5,30 @@ main {
 
 /* portfolio menu */
 
+.grid1_1 {
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.grid1_1 a {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.grid1_1 .img-menu {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1/1; /* Maintain a square aspect ratio */
+}
+
 @media (min-width: 800px) {
   .grid1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 50px;
-    gap: 30px;
+    padding-top: 40px;
+    gap: 50px;
   }
 
   .grid1_1 a {
