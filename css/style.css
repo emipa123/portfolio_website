@@ -112,6 +112,7 @@ h1 {
 .grid1_1 .hover-content span {
   color: #f0efe8;
   font-weight: bold;
+  letter-spacing: 1px;
   font-size: 20px;
 }
 
@@ -144,6 +145,7 @@ h1 {
     color: #f0efe8;
     font-weight: bold;
     font-size: 45px;
+    letter-spacing: 1px;
   }
 }
 /*************************/
@@ -275,27 +277,53 @@ nav {
 footer {
   background-color: #1f1f1f;
   color: #f0efe8;
-  font-size: 11px;
   font-family: "Glacial Indifference", sans-serif;
-  font-weight: 100;
-  line-height: 10px;
   letter-spacing: 1px;
-  padding: 60px 10px;
+  padding-top: 60px;
+  padding-bottom: 30px;
   text-align: center;
-  margin: 0 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-container p {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
 @media (min-width: 800px) {
   footer {
-    font-size: 16px;
-    padding: 60px 10px;
-    text-align: end;
-    padding-right: 150px;
-    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    color: #f0efe8;
   }
 
-  main {
-    padding-top: 30px;
-    margin: 0;
+  .icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-container p {
+    margin-left: 10px;
+    font-size: 14px;
   }
 }
 
