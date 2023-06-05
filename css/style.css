@@ -267,6 +267,8 @@ h2 {
 /* Navbar */
 
 header {
+  position: sticky;
+  top: 0;
   background-color: #1f1f1f;
   color: #fff;
   padding: 20px;
