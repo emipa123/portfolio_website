@@ -76,7 +76,6 @@ h2 {
 }
 
 /* forside */
-/* Mobile styles */
 .wrapper {
   justify-content: center;
   flex-direction: column;
@@ -120,7 +119,6 @@ h2 {
   margin-right: auto;
 }
 
-/* Desktop styles */
 @media screen and (min-width: 800px) {
   main {
     padding-top: 50px;
@@ -234,6 +232,27 @@ h2 {
 /*************************/
 
 /* Web */
+@media screen and (min-width: 800px) {
+  .h1-tal {
+    color: #f0efe8;
+    font-size: 280px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -90px;
+    font-weight: normal;
+    margin-top: 150px;
+  }
+
+  .h2-tema {
+    color: #f0efe8;
+    font-size: 200px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -90px;
+    font-weight: bold;
+    margin-top: 225px;
+  }
+}
 
 /* UX */
 

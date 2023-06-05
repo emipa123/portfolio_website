@@ -43,4 +43,13 @@ main {
   }
 }
 
+/* web */
+@media (min-width: 800px) {
+  .grid-h1-h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
 /* footer */
