@@ -63,6 +63,14 @@ h2 {
     text-align: center;
     font-size: 50px;
   }
+  h4 {
+    color: #1f1f1f;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+
   body {
     background-color: #f0efe9;
     max-width: 1800px;
@@ -72,7 +80,14 @@ h2 {
 
   p {
     color: #1f1f1f;
-    font-family: "Glacial Indifference", sans-serif;
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    line-height: 2rem;
   }
   .if-container {
     position: absolute;
@@ -89,7 +104,7 @@ h2 {
     margin-bottom: 40px;
   }
 
-  .indholdsfortegnelse p {
+  .indholdsfortegnelse h5 {
     margin-bottom: 20px; /* Adjust the value as needed */
   }
 
@@ -97,6 +112,27 @@ h2 {
     color: #1f1f1f;
     font-family: "Glacial Indifference", sans-serif;
     padding-bottom: 15px;
+  }
+
+  .button_opgave {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  .line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 150px;
+  }
+
+  .horizontal-line {
+    width: 50%;
+    border: none;
+    border-top: 1px solid #1f1f1f;
+    margin: 0 auto;
   }
 }
 
@@ -122,6 +158,15 @@ h2 {
     left: -90px;
     font-weight: bold;
     margin-top: 150px;
+  }
+  .additional-content {
+    margin-top: 400px;
+  }
+  .img-emne {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -45px;
   }
 }
 /* UX */
