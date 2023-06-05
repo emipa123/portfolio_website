@@ -33,45 +33,45 @@ img {
 }
 /* General */
 body {
-  background-color: #1f1f1f;
+  background-color: #f0efe9;
   max-width: 1800px;
   margin: 0 auto;
   font-family: "Glacial Indifference", sans-serif;
 }
 
 p {
-  color: #f0efe8;
+  color: #1f1f1f;
   font-family: "Glacial Indifference", sans-serif;
 }
 
 h1 {
-  color: #f0efe8;
+  color: #1f1f1f;
   text-align: center;
   font-size: 50px;
   padding-top: 30px;
 }
 
 h2 {
-  color: #f0efe8;
+  color: #1f1f1f;
   text-align: center;
   font-size: 50px;
 }
 
 @media screen and (min-width: 800px) {
   h1 {
-    color: #f0efe8;
+    color: #1f1f1f;
     text-align: center;
     font-size: 50px;
   }
   body {
-    background-color: #1f1f1f;
+    background-color: #f0efe9;
     max-width: 1800px;
     margin: 0 auto;
     font-family: "Glacial Indifference", sans-serif;
   }
 
   p {
-    color: #f0efe8;
+    color: #1f1f1f;
     font-family: "Glacial Indifference", sans-serif;
   }
   .if-container {
@@ -94,167 +94,41 @@ h2 {
   }
 
   .indholdsfortegnelse h3 {
-    color: #f0efe8;
+    color: #1f1f1f;
     font-family: "Glacial Indifference", sans-serif;
     padding-bottom: 15px;
   }
 }
 
-/* forside */
-.wrapper {
-  justify-content: center;
-  flex-direction: column;
-}
+/*************************/
 
-.box-1 {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 30px;
-}
-
-.img-forside {
-  width: 80%;
-  margin: 0;
-  align-self: flex-end;
-}
-
-.box-2 {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.h1_port {
-  font-size: 60px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.h2_folio {
-  font-size: 50px;
-  margin-left: auto;
-  margin-right: 30px;
-  text-align: right;
-}
-
-.button_forside {
-  width: 80%;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* Web */
 @media screen and (min-width: 800px) {
-  main {
-    padding-top: 50px;
-  }
-
-  .wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
-  .box-1 {
-    position: relative;
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .img-forside {
-    width: 55%; /* Adjust the desired width */
-    margin-left: 321px;
-    align-self: flex-end;
-  }
-
-  .box-2 {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    transform: translateY(-50%);
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .h1_port {
-    color: #f0efe8;
-    font-size: 260px;
-    font-weight: bold;
+  .h1-tal {
+    color: #1f1f1f;
+    font-size: 280px;
     margin-bottom: 10px;
     position: relative;
-    left: -90px; /* Adjust the value to move h1 more to the left */
+    left: -90px;
+    font-weight: lighter;
+    margin-top: 78px;
   }
 
-  .h2_folio {
-    color: #f0efe8;
-    font-size: 230px;
-    margin-left: auto;
-  }
-
-  .button_forside {
-    width: 20%;
-    margin-top: -150px;
-    margin-right: 900px;
-  }
-}
-/* Portfolio-menu */
-.main_menu {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.img-menu {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.grid1_1 a {
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-}
-.grid1_1 .hover-content span {
-  color: #f0efe8;
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 20px;
-}
-
-@media screen and (min-width: 800px) {
-  .grid1_1 a {
+  .h2-tema {
+    color: #1f1f1f;
+    font-size: 200px;
+    margin-bottom: 10px;
     position: relative;
-    display: inline-block;
-    text-decoration: none;
-  }
-
-  .grid1_1 .hover-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #1f1f1f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-
-  .grid1_1 a:hover .hover-content {
-    opacity: 1;
-  }
-
-  .grid1_1 .hover-content span {
-    color: #f0efe8;
+    left: -90px;
     font-weight: bold;
-    font-size: 45px;
-    letter-spacing: 1px;
+    margin-top: 150px;
   }
 }
-/*************************/
+/* UX */
+
+/* Animation */
+
+/* Indhold */
 
 /* Portfolio */
 
@@ -267,8 +141,8 @@ h2 {
 /* Navbar */
 
 header {
-  background-color: #1f1f1f;
-  color: #fff;
+  background-color: #f0efe9;
+  color: #1f1f1f;
   padding: 20px;
   margin-top: 15px;
 }
@@ -286,7 +160,7 @@ nav {
 .line {
   width: 100%;
   height: 1px;
-  background-color: #fff;
+  background-color: #f0efe9;
 }
 
 .menu {
@@ -300,7 +174,7 @@ nav {
 
 .menu li a {
   text-decoration: none;
-  color: #fff;
+  color: #1f1f1f;
 }
 
 .logo a {
@@ -309,7 +183,7 @@ nav {
   margin: 0 auto;
   top: 4rem;
   right: 30rem;
-  color: #f0efe8;
+  color: #1f1f1f;
   text-decoration: solid;
   font-weight: bold;
   font-size: 25px;
@@ -335,7 +209,7 @@ nav {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    background-color: #333;
+    background-color: #f0efe9;
     top: 70px;
     right: 20px; /* Position the menu on the right side */
     left: unset; /* Clear the left position */
@@ -365,7 +239,7 @@ nav {
     margin: 0 auto;
     top: 4rem;
     right: -9rem;
-    color: #f0efe8;
+    color: #1f1f1f;
     text-decoration: solid;
     font-weight: bold;
     font-size: 25px;
@@ -374,8 +248,8 @@ nav {
 }
 /* Footer */
 footer {
-  background-color: #1f1f1f;
-  color: #f0efe8;
+  background-color: #f0efe9;
+  color: #1f1f1f;
   font-family: "Glacial Indifference", sans-serif;
   letter-spacing: 1px;
   padding-top: 60px;
@@ -405,8 +279,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1f1f1f;
-    color: #f0efe8;
+    background-color: #f0efe9;
+    color: #1f1f1f;
   }
 
   .icon-container {
