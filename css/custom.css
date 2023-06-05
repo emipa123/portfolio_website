@@ -56,6 +56,112 @@ h2 {
   text-align: center;
   font-size: 50px;
 }
+h4 {
+  color: #1f1f1f;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 60px;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+h6 {
+  color: #1f1f1f;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 60px;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #f0efe9;
+  max-width: 1800px;
+  margin: 0 auto;
+  font-family: "Glacial Indifference", sans-serif;
+}
+
+p {
+  color: #1f1f1f;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.if-container {
+  right: 0;
+  text-align: center;
+}
+
+.indholdsfortegnelse {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.indholdsfortegnelse h5 {
+  margin-bottom: 10px;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.indholdsfortegnelse h3 {
+  color: #1f1f1f;
+  font-family: "Glacial Indifference", sans-serif;
+  padding-bottom: 5px;
+}
+
+.button_opgave {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.line-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+
+.horizontal-line {
+  width: 50%;
+  border: none;
+  border-top: 2px solid #1f1f1f;
+  margin: 0 auto;
+}
+.h1-tal {
+  color: #1f1f1f;
+  font-size: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  font-weight: lighter;
+  margin-top: 78px;
+}
+
+.h2-tema {
+  color: #1f1f1f;
+  font-size: 70px;
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+.additional-content {
+  margin-top: 280px;
+}
+.img-emne1 {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
 
 @media screen and (min-width: 800px) {
   h1 {
@@ -67,8 +173,20 @@ h2 {
     color: #1f1f1f;
     text-align: center;
     font-size: 40px;
-    font-weight: bold;
     margin-bottom: 60px;
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+  h6 {
+    color: #1f1f1f;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   body {
@@ -85,9 +203,11 @@ h2 {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
     line-height: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .if-container {
     position: absolute;
@@ -105,7 +225,10 @@ h2 {
   }
 
   .indholdsfortegnelse h5 {
-    margin-bottom: 20px; /* Adjust the value as needed */
+    margin-bottom: 20px;
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 400;
   }
 
   .indholdsfortegnelse h3 {
@@ -131,14 +254,35 @@ h2 {
   .horizontal-line {
     width: 50%;
     border: none;
-    border-top: 1px solid #1f1f1f;
+    border-top: 2px solid #1f1f1f;
     margin: 0 auto;
   }
 }
 
-/*************************/
-
 /* Web */
+.img-emne {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -45px;
+}
+.emne-mindmap {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-emne1 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -45px;
+}
+.img-emne2 {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
 @media screen and (min-width: 800px) {
   .h1-tal {
     color: #1f1f1f;
@@ -168,8 +312,93 @@ h2 {
     margin-right: auto;
     margin-top: -45px;
   }
+
+  .emne-mindmap {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-emne1 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -45px;
+  }
+  .img-emne2 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
 }
 /* UX */
+@media screen and (min-width: 800px) {
+  .ux-mindmap {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .h6-målgruppe {
+    color: #1f1f1f;
+    text-align: left;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+
+  .p-udfordringer-formål {
+    color: #1f1f1f;
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  .p-målgruppe {
+    color: #1f1f1f;
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .usp {
+    background-color: #1f1f1f;
+    color: #f0efe9;
+  }
+  .h6-usp {
+    color: #f0efe9;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .p-usp {
+    color: #f0efe9;
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+  }
+  .img-emne1 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+}
 
 /* Animation */
 
@@ -186,6 +415,8 @@ h2 {
 /* Navbar */
 
 header {
+  position: sticky;
+  top: 0;
   background-color: #f0efe9;
   color: #1f1f1f;
   padding: 20px;
@@ -205,7 +436,7 @@ nav {
 .line {
   width: 100%;
   height: 1px;
-  background-color: #f0efe9;
+  background-color: #1f1f1f;
 }
 
 .menu {
@@ -297,8 +528,8 @@ footer {
   color: #1f1f1f;
   font-family: "Glacial Indifference", sans-serif;
   letter-spacing: 1px;
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding-top: 30 px;
+  padding-bottom: 100px;
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -306,7 +537,7 @@ footer {
 .icon-container {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .icon {
