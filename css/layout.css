@@ -145,4 +145,42 @@ main {
     justify-content: center;
   }
 }
+
+/* indhold */
+.grid-1-1-indhold img {
+  padding-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-heu {
+  padding-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 800px) {
+  .grid-1-1-indhold {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-heu {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  }
+
+  .grid-1-1-indhold img {
+    width: 90%;
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
 /* footer */
