@@ -138,4 +138,11 @@ main {
     margin-right: 10px;
   }
 }
+/* animation */
+@media (min-width: 800px) {
+  .grid-6 {
+    display: flex;
+    justify-content: center;
+  }
+}
 /* footer */

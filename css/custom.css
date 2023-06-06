@@ -420,11 +420,33 @@ p {
   .sounds {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2px;
+    gap: 0px;
+  }
+  .lyd {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pige_svg {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ui-element {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /* Indhold */
-
+@media screen and (min-width: 800px) {
+  .video {
+    width: 50%; /* Adjust the width as needed */
+    display: block;
+    margin: 0 auto;
+  }
+}
 /* Portfolio */
 
 /*************************/
