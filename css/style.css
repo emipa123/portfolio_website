@@ -196,7 +196,7 @@ h2 {
 
   .button_forside {
     width: 20%;
-    margin-top: -150px;
+    margin-top: -200px;
     margin-right: 900px;
   }
 }
@@ -216,6 +216,15 @@ h2 {
   text-decoration: none;
 }
 .grid1_1 .hover-content span {
+  color: #f0efe8;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.portfolio-tema a {
+  text-decoration: none;
+}
+.portfolio-tema .hover-content span {
   color: #f0efe8;
   font-weight: bold;
   letter-spacing: 1px;
