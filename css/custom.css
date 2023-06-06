@@ -153,6 +153,12 @@ p {
   margin-bottom: 70px;
   font-weight: bold;
 }
+.h2-animation {
+  color: #1f1f1f;
+  font-size: 60px;
+  margin-bottom: 70px;
+  font-weight: bold;
+}
 .additional-content {
   margin-top: 280px;
 }
@@ -303,6 +309,15 @@ p {
     font-weight: bold;
     margin-top: 150px;
   }
+  .h2-animation {
+    color: #1f1f1f;
+    font-size: 100px;
+    margin-bottom: 10px;
+    position: relative;
+    left: -90px;
+    font-weight: bold;
+    margin-top: 150px;
+  }
   .additional-content {
     margin-top: 400px;
   }
@@ -401,7 +416,13 @@ p {
 }
 
 /* Animation */
-
+@media screen and (min-width: 800px) {
+  .sounds {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+  }
+}
 /* Indhold */
 
 /* Portfolio */
