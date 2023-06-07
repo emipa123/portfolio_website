@@ -20,7 +20,6 @@ img {
 @media (min-width: 800px) {
   body {
     image-resolution: 100%;
-    padding-top: 30px;
   }
 }
 @media (min-width: 800px) {
