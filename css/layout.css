@@ -197,4 +197,21 @@ main {
   }
 }
 
+/* om */
+@media (min-width: 800px) {
+  .om_grid {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+  }
+  .h1_om {
+    text-align: end;
+  }
+
+  .img_om {
+    place-content: start;
+    width: 55%;
+    margin-bottom: 200px;
+  }
+}
 /* footer */

@@ -46,132 +46,144 @@
             </div>
         </nav>
     </header>
-
-    <div class="grid-h1-h2">
-        <h1 class="h1-tal">04</h1>
-        <h2 class="h2-animation">ANIMATION</h2>
-    </div>
-    <div class="if-container">
-        <div class="indholdsfortegnelse">
-            <h3>SPIL</h3>
-            <h5>- ANALYSE AF STIL</h5>
-            <h5>- SKITSER</h5>
-            <h5>- ASSETS</h5>
-            <h5>- UI-ELEMENTER</h5>
-            <h5>- MOCK UP</h5>
-            <h5>- LYDE</h5>
-            <h5>- AKTIVITETSDIAGRAM + STATEMACHINEDIAGRAM</h5>
+    <main>
+        <div class="grid-h1-h2">
+            <h1 class="h1-tal">04</h1>
+            <h2 class="h2-animation">ANIMATION</h2>
         </div>
-    </div>
-
-    <div class="additional-content">
-        <h4>SPIL</h4>
-        <a href="https://emiliaivarsdottir.dk/kea/04_animation/website/index.html"><img class="button_opgave"
-                src="img/knapper/knap_opgave.svg" alt="button"></a>
-
-        <img class="img-emne" src="img/animation/mock_animation.webp" alt="mockup">
-        <p>I dette tema blev vi introduceret til CSS-animation og JavaScript. Vi blev også præsenteret for
-            idé-genereringsmetoden
-            "kryds-metoden", som vi anvendte til at finde et handlingsforløb til vores spil. </p>
-
-        <h6>ANALYSE AF STIL</h6>
-        <img class="img-emne" src="img/animation/analyse_af_stil.webp" alt="analyse af stil">
-        <p>I designprocessen, valgte jeg at bruge Jade Browns stil som inspiration. Denne stil er
-            kendetegnet ved stærke farver, kontraster, fed tekst, asymmetriske figurer og atmosfæriske baggrunde.</p>
-
-        <h6>SKITSER</h6>
-        <div class="grid-1-1-indhold ">
-            <img src="img/animation/skitse_forside.webp" alt="skitser">
-            <img src="img/animation/skitse_howto.webp" alt="skitser">
-        </div>
-        <div class="grid-1-1-indhold ">
-            <img src=" img/animation/skitse_youwon.webp" alt="skitser">
-            <img src="img/animation/skitse_gameover.webp" alt="skitser">
-        </div>
-        <p>I skitsefasen visualiserede jeg handlingsforløbet for spillet samt identificerede de skærme og assets, jeg
-            ønskede at
-            bruge i spillet.</p>
-
-        <h6>ASSETS</h6>
-        <div class="grid-1-1-ux">
-            <img class="img-emne1" src="img/animation/happy.svg" alt="asset">
-            <img class="img-emne1" src="img/animation/sad.svg" alt="asset">
-        </div>
-        <div class="grid-1-1-ux">
-            <img class="pige_svg" src="img/animation/pige.svg" alt="asset">
-            <img class="pige_svg" src="img/animation/pige-øjne.svg" alt="asset">
-        </div>
-        <h6>UI - ELEMENTER</h6>
-        <div class="grid-6">
-            <img class="ui-element" src="img/animation/timer_start.svg" alt="asset">
-            <img class="ui-element" src="img/animation/timer_slut.svg" alt="asset">
-            <img class="ui-element" src="img/animation/life.svg" alt="asset">
-            <img class="ui-element" src="img/animation/point.svg" alt="asset">
-            <img class="ui-element" src="img/animation/start.svg" alt="asset">
-            <img class="ui-element" src="img/animation/genstart.svg" alt="asset">
-        </div>
-        <p>De ovenstående elementer er mine UI-elementer. Tiden starter som grøn og gradvist skifter til rød, jo længere
-            tiden går.
-            Derudover er livene illustreret med et hjerte-symbol.</p>
-
-
-        <h6>MOCK UP</h6>
-        <img class="img-heu " src="img/animation/startskærm_mu.webp" alt="protoype">
-        <img class="img-heu " src="img/animation/how to play_mu.webp" alt="protoype">
-        <img class="img-heu " src="img/animation/spilskærm_mu.webp" alt="protoype">
-        <div class="grid-1-1-indhold ">
-            <img src="img/animation/you_won_mu.webp" alt="prototype">
-            <img src="img/animation/game_over_mu.webp" alt="skitser">
-        </div>
-        <p>Efter at have defineret stilen, udarbejdet skitser og fastlagt et handlingsforløb og de nødvendige assets og
-            UI-elementer, påbegyndte
-            jeg arbejdet med mock-up'en.</p>
-
-        <h6>LYDE</h6>
-        <div class="sounds">
-            <div>
-                <p>God lyd</p>
-                <audio src="img/animation/sound_wui.mp3" class="lyd" controls></audio>
-            </div>
-            <div>
-                <p>Dårlig lyd</p>
-                <audio src="img/animation/sound_wa.mp3" class="lyd" controls></audio>
+        <div class="if-container">
+            <div class="indholdsfortegnelse">
+                <h3>SPIL</h3>
+                <h5>- ANALYSE AF STIL</h5>
+                <h5>- SKITSER</h5>
+                <h5>- ASSETS</h5>
+                <h5>- UI-ELEMENTER</h5>
+                <h5>- MOCK UP</h5>
+                <h5>- LYDE</h5>
+                <h5>- AKTIVITETSDIAGRAM + STATEMACHINEDIAGRAM</h5>
             </div>
         </div>
-        <p>Jeg optog lyden med fokus på støjniveauet (noisefloor). Jeg optog en god lyd, som blev afspillet, når man
-            klikkede på
-            den gode asset, og en dårlig lyd, når man klikkede på en dårlig asset. Lyden blev gemt som en mp3-fil og
-            blev derefter
-            implementeret i min kode.</p>
 
-        <h6>AKTIVITETSDIAGRAM</h6>
-        <img class="img-emne1" src="img/animation/ad.webp" alt="AKTIVITETSDIAGRAM">
-        <p>I spillet falder glade og sure smileyer ned fra himlen. Målet er at fange mindst 10 glade smileyer og undgå
-            de sure. Når
-            man klikker på en glad smiley, får man 1 point, smileyen forsvinder og man hører en "wuii" lyd. Hvis man
-            klikker på en
-            sur smiley, mister man 1 liv, smileyen forsvinder og man hører en "waa" lyd. Spillet varer 20 sekunder, som
-            vises med et
-            ur. For at vinde skal man have mindst 10 point, og pointene vises med tal. Man starter med 3 liv, som vises
-            med hjerter
-            og tal. Hvis man mister alle 3 liv, har man tabt og spillet afsluttes.</p>
+        <div class="additional-content">
+            <h4>SPIL</h4>
+            <a href="https://emiliaivarsdottir.dk/kea/04_animation/website/index.html"><img class="button_opgave"
+                    src="img/knapper/knap_opgave.svg" alt="button"></a>
 
-        <h6>STATEMACHINEDIAGRAM</h6>
-        <img class="img-emne1" src="img/animation/smd.webp" alt="STATEMACHINEDIAGRAM">
-        <p>Jeg udarbejdede et state machine diagram for at visualisere systemet, overgangene og tilstandene, som spillet
-            skulle
-            indeholde. Diagrammet viser også de handlinger, der skal udføres for at skifte mellem tilstandene.</p>
+            <img class="img-emne" src="img/animation/mock_animation.webp" alt="mockup">
+            <p>I dette tema blev vi introduceret til CSS-animation og JavaScript. Vi blev også præsenteret for
+                idé-genereringsmetoden
+                "kryds-metoden", som vi anvendte til at finde et handlingsforløb til vores spil. I dette tema fokuserede
+                vi
+                på UI-elementer, figur-elementer, baggrundsdesign og kompositionsteknikker i designprocessen. Vi
+                arbejdede
+                med filformaterne; .svg . mp3 . wav. </p>
 
-    </div>
+            <h6>ANALYSE AF STIL</h6>
+            <img class="img-emne" src="img/animation/analyse_af_stil.webp" alt="analyse af stil">
+            <p>I designprocessen, valgte jeg at bruge Jade Browns stil som inspiration. Denne stil er
+                kendetegnet ved stærke farver, kontraster, fed tekst, asymmetriske figurer og atmosfæriske baggrunde.
+            </p>
 
-    <div class="grid-1-1-værktøjer">
-        <img src="img/knapper/html.svg" alt="html">
-        <img src="img/knapper/css.svg" alt="css">
-    </div>
-    <div class="line-container">
-        <hr class="horizontal-line">
-    </div>
+            <h6>SKITSER</h6>
+            <div class="grid-1-1-indhold ">
+                <img src="img/animation/skitse_forside.webp" alt="skitser">
+                <img src="img/animation/skitse_howto.webp" alt="skitser">
+            </div>
+            <div class="grid-1-1-indhold ">
+                <img src=" img/animation/skitse_youwon.webp" alt="skitser">
+                <img src="img/animation/skitse_gameover.webp" alt="skitser">
+            </div>
+            <p>I skitsefasen visualiserede jeg handlingsforløbet for spillet samt identificerede de skærme og assets,
+                jeg
+                ønskede at
+                bruge i spillet.</p>
 
+            <h6>ASSETS</h6>
+            <div class="grid-1-1-ux">
+                <img class="img-emne1" src="img/animation/happy.svg" alt="asset">
+                <img class="img-emne1" src="img/animation/sad.svg" alt="asset">
+            </div>
+            <div class="grid-1-1-ux">
+                <img class="pige_svg" src="img/animation/pige.svg" alt="asset">
+                <img class="pige_svg" src="img/animation/pige-øjne.svg" alt="asset">
+            </div>
+            <h6>UI - ELEMENTER</h6>
+            <div class="grid-6">
+                <img class="ui-element" src="img/animation/timer_start.svg" alt="asset">
+                <img class="ui-element" src="img/animation/timer_slut.svg" alt="asset">
+                <img class="ui-element" src="img/animation/life.svg" alt="asset">
+                <img class="ui-element" src="img/animation/point.svg" alt="asset">
+                <img class="ui-element" src="img/animation/start.svg" alt="asset">
+                <img class="ui-element" src="img/animation/genstart.svg" alt="asset">
+            </div>
+            <p>De ovenstående elementer er mine UI-elementer. Tiden starter som grøn og gradvist skifter til rød, jo
+                længere
+                tiden går.
+                Derudover er livene illustreret med et hjerte-symbol.</p>
+
+
+            <h6>MOCK UP</h6>
+            <img class="img-heu " src="img/animation/startskærm_mu.webp" alt="protoype">
+            <img class="img-heu " src="img/animation/how to play_mu.webp" alt="protoype">
+            <img class="img-heu " src="img/animation/spilskærm_mu.webp" alt="protoype">
+            <div class="grid-1-1-indhold ">
+                <img src="img/animation/you_won_mu.webp" alt="prototype">
+                <img src="img/animation/game_over_mu.webp" alt="skitser">
+            </div>
+            <p>Efter at have defineret stilen, udarbejdet skitser og fastlagt et handlingsforløb og de nødvendige assets
+                og
+                UI-elementer, påbegyndte
+                jeg arbejdet med mock-up'en.</p>
+
+            <h6>LYDE</h6>
+            <div class="sounds">
+                <div>
+                    <p>God lyd</p>
+                    <audio src="img/animation/sound_wui.mp3" class="lyd" controls></audio>
+                </div>
+                <div>
+                    <p>Dårlig lyd</p>
+                    <audio src="img/animation/sound_wa.mp3" class="lyd" controls></audio>
+                </div>
+            </div>
+            <p>Jeg optog lyden med fokus på støjniveauet (noisefloor). Jeg optog en god lyd, som blev afspillet, når man
+                klikkede på
+                den gode asset, og en dårlig lyd, når man klikkede på en dårlig asset. Lyden blev gemt som en mp3-fil og
+                blev derefter
+                implementeret i min kode.</p>
+
+            <h6>AKTIVITETSDIAGRAM</h6>
+            <img class="img-emne1" src="img/animation/ad.webp" alt="AKTIVITETSDIAGRAM">
+            <p>I spillet falder glade og sure smileyer ned fra himlen. Målet er at fange mindst 10 glade smileyer og
+                undgå
+                de sure. Når
+                man klikker på en glad smiley, får man 1 point, smileyen forsvinder og man hører en "wuii" lyd. Hvis man
+                klikker på en
+                sur smiley, mister man 1 liv, smileyen forsvinder og man hører en "waa" lyd. Spillet varer 20 sekunder,
+                som
+                vises med et
+                ur. For at vinde skal man have mindst 10 point, og pointene vises med tal. Man starter med 3 liv, som
+                vises
+                med hjerter
+                og tal. Hvis man mister alle 3 liv, har man tabt og spillet afsluttes.</p>
+
+            <h6>STATEMACHINEDIAGRAM</h6>
+            <img class="img-emne1" src="img/animation/smd.webp" alt="STATEMACHINEDIAGRAM">
+            <p>Jeg udarbejdede et state machine diagram for at visualisere systemet, overgangene og tilstandene, som
+                spillet
+                skulle
+                indeholde. Diagrammet viser også de handlinger, der skal udføres for at skifte mellem tilstandene.</p>
+
+        </div>
+
+        <div class="grid-1-1-værktøjer">
+            <img src="img/knapper/html.svg" alt="html">
+            <img src="img/knapper/css.svg" alt="css">
+        </div>
+        <div class="line-container">
+            <hr class="horizontal-line">
+        </div>
+    </main>
     <footer>
         <div class="icon-container">
             <a href="https://www.linkedin.com/in/emilia-%C3%ADvarsd%C3%B3ttir-lavrsen-parwaiz-789209228/"><img class="
