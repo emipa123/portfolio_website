@@ -123,6 +123,37 @@ main {
     margin-top: 100px;
     margin-bottom: 80px;
   }
+
+  .grid-1-1-1-1-værktøjer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  .grid-5-værktøjer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  .grid6-værktøjer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
 }
 
 /* ux */
@@ -222,6 +253,29 @@ main {
   .cv_elements img {
     width: 40%;
     margin-top: 35px;
+  }
+
+  .grid1-1-1-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+  .grid1-1-1-cv h4 {
+    margin: 0 84px;
+  }
+}
+
+@media (min-width: 800px) {
+  .iconer_some {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 10%;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 /* footer */

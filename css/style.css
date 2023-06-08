@@ -335,10 +335,29 @@ h2 {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  .interesse-diagram {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    scale: 50%;
+    margin-bottom: 30px;
+  }
 }
 
 /* Kontakt */
-
+@media screen and (min-width: 800px) {
+  .p-kontakt {
+    font-size: 30px;
+    color: #f0efe8;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
 /* Navbar */
 
 header {
