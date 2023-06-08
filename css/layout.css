@@ -213,5 +213,15 @@ main {
     width: 55%;
     margin-bottom: 200px;
   }
+  .cv_elements {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 340px;
+    gap: 30px;
+  }
+  .cv_elements img {
+    width: 40%;
+    margin-top: 35px;
+  }
 }
 /* footer */
