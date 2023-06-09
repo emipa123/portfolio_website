@@ -302,8 +302,66 @@ h2 {
 /*************************/
 
 /* Om */
+.h1_om {
+  color: #f0efe8;
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.h2_mig {
+  text-align: center;
+  font-size: 50px;
+  margin-top: -20px;
+  font-weight: lighter;
+}
+.p-om {
+  color: #f0efe8;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 2rem;
+  font-family: "Proxima Nova", sans-serif;
+}
+.grid_om {
+  margin-left: auto;
+  margin-right: auto;
+}
+.h2_cv {
+  color: #f0efe8;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+h3 {
+  color: #f0efe8;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+h4 {
+  color: #f0efe8;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.interesse-diagram {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  scale: 70%;
+  margin-bottom: 30px;
+}
 @media screen and (min-width: 800px) {
-  .h1_om {
+  .grid_om {
     color: #f0efe8;
     font-size: 100px;
     font-weight: bold;
@@ -311,13 +369,25 @@ h2 {
     margin-top: -150px;
     margin-left: 100px;
   }
-
+  .h1_om {
+    text-align: center;
+    font-size: 200px;
+    margin-top: -270px;
+    margin-right: 21px;
+  }
+  .h2_mig {
+    text-align: center;
+    font-size: 130px;
+    margin-top: -50px;
+    font-weight: lighter;
+    padding-top: 30px;
+  }
   .h2_cv {
     color: #f0efe8;
     font-size: 80px;
     font-weight: bold;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   h3 {
@@ -360,6 +430,14 @@ h2 {
 }
 
 /* Kontakt */
+.p-kontakt {
+  font-size: 25px;
+  color: #f0efe8;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
 @media screen and (min-width: 800px) {
   .p-kontakt {
     font-size: 30px;
@@ -474,7 +552,7 @@ nav {
     color: #f0efe8;
     text-decoration: solid;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 23px;
     padding-right: 950px;
   }
 }

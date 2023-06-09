@@ -51,6 +51,36 @@ main {
   margin-top: 100px;
   margin-bottom: 80px;
 }
+.grid-1-1-1-1-værktøjer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.grid-5-værktøjer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.grid6-værktøjer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
 
 @media (min-width: 800px) {
   .grid1_1 {
@@ -229,20 +259,43 @@ main {
 }
 
 /* om */
+.om_grid {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.img_om {
+  margin-top: 20px;
+}
+.cv_elements {
+  display: block;
+  margin-left: 70px;
+}
+.cv_elements img {
+  width: 80%;
+  margin-top: 20px;
+}
+.grid1-1-1-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.grid1-1-1-cv h4 {
+  margin: 0 30px;
+}
 @media (min-width: 800px) {
   .om_grid {
     display: flex;
     align-items: center;
+    align-content: center;
     gap: 200px;
-  }
-  .h1_om {
-    text-align: end;
   }
 
   .img_om {
     place-content: start;
-    width: 200%;
+    width: 280%;
     margin-bottom: 200px;
+    margin-top: 80px;
   }
   .cv_elements {
     display: grid;
@@ -265,7 +318,17 @@ main {
     margin: 0 84px;
   }
 }
-
+/* kontakt */
+.iconer_some {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 @media (min-width: 800px) {
   .iconer_some {
     display: grid;
