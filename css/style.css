@@ -305,10 +305,11 @@ h2 {
 @media screen and (min-width: 800px) {
   .h1_om {
     color: #f0efe8;
-    font-size: 200px;
+    font-size: 100px;
     font-weight: bold;
     margin-bottom: 5px;
-    margin-top: -500px;
+    margin-top: -150px;
+    margin-left: 100px;
   }
 
   .h2_cv {
@@ -316,6 +317,7 @@ h2 {
     font-size: 80px;
     font-weight: bold;
     text-align: center;
+    margin-top: 100px;
   }
 
   h3 {
@@ -346,6 +348,15 @@ h2 {
     scale: 50%;
     margin-bottom: 30px;
   }
+
+  .p-om {
+    color: #f0efe8;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 2rem;
+    font-family: "Proxima Nova", sans-serif;
+  }
 }
 
 /* Kontakt */
@@ -371,6 +382,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-end; /* Position items on the right side */
+  padding-right: 10px;
 }
 
 .burger-menu {
@@ -406,7 +418,7 @@ nav {
   color: #f0efe8;
   text-decoration: solid;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 24px;
   padding-right: 45px;
 }
 

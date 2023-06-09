@@ -241,7 +241,7 @@ main {
 
   .img_om {
     place-content: start;
-    width: 55%;
+    width: 200%;
     margin-bottom: 200px;
   }
   .cv_elements {
