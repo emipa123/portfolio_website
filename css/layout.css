@@ -237,8 +237,7 @@ main {
 }
 @media (min-width: 800px) {
   .grid-1-1-indhold {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -255,6 +254,21 @@ main {
     width: 90%;
     object-fit: cover;
     height: 100%;
+  }
+}
+/* 06 portfolio */
+@media (min-width: 800px) {
+  .grid-1-1-1-port {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid-1-1-port {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

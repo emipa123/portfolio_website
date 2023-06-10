@@ -37,7 +37,11 @@ body {
   margin: 0 auto;
   font-family: "Glacial Indifference", sans-serif;
 }
-
+a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-family: "Glacial Indifference", sans-serif;
+}
 p {
   color: #1f1f1f;
   font-family: "Glacial Indifference", sans-serif;
@@ -118,7 +122,6 @@ p {
   margin-bottom: 10px;
   color: #98a5c2;
   text-decoration: none;
-  font-style: bold;
   font-weight: 600;
 }
 
@@ -320,7 +323,7 @@ p {
   }
 
   .emne-mindmap {
-    width: 50%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -340,7 +343,7 @@ p {
 /* UX */
 @media screen and (min-width: 800px) {
   .ux-mindmap {
-    width: 40%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -452,7 +455,13 @@ p {
 }
 /* Portfolio */
 
-/*************************/
+/* next knap */
+.next {
+  text-decoration: none;
+  font-weight: 600;
+  text-align: right;
+  font-size: 30px;
+}
 
 /* Navbar */
 

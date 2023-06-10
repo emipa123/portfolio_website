@@ -41,6 +41,9 @@ body {
 p {
   color: #f0efe8;
   font-family: "Glacial Indifference", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: 0.1rem;
 }
 
 h1 {
