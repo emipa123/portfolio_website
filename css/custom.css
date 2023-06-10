@@ -477,7 +477,14 @@ p {
   }
 }
 /* Portfolio */
-
+.interview {
+  font-size: 25px;
+  font-weight: 600;
+}
+.quest {
+  font-size: 16px;
+  font-weight: 600;
+}
 /* next knap */
 .next {
   text-decoration: none;
