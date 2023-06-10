@@ -42,10 +42,6 @@ a {
   color: #1f1f1f;
   font-family: "Glacial Indifference", sans-serif;
 }
-p {
-  color: #1f1f1f;
-  font-family: "Glacial Indifference", sans-serif;
-}
 
 h1 {
   color: #1f1f1f;
@@ -313,7 +309,7 @@ p {
     margin-top: 150px;
   }
   .additional-content {
-    margin-top: 400px;
+    margin-top: 0px;
   }
   .img-emne {
     width: 75%;

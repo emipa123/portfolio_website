@@ -335,7 +335,7 @@ main {
 /* kontakt */
 .iconer_some {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 50%;
   gap: 30px;
   margin-left: auto;
@@ -346,8 +346,8 @@ main {
 @media (min-width: 800px) {
   .iconer_some {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 30%;
     gap: 30px;
     margin-left: auto;
     margin-right: auto;
