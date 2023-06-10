@@ -147,7 +147,7 @@ p {
   margin-bottom: 20px;
   position: relative;
   font-weight: lighter;
-  margin-top: 78px;
+  margin-top: 50px;
 }
 
 .h2-tema {
@@ -166,10 +166,9 @@ p {
   margin-top: 280px;
 }
 .img-emne1 {
-  width: 95%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
 }
 
 @media screen and (min-width: 800px) {
@@ -267,12 +266,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-.img-emne1 {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -45px;
-}
+
 .img-emne2 {
   width: 95%;
   margin-left: auto;
@@ -337,6 +331,39 @@ p {
   }
 }
 /* UX */
+.h6-målgruppe {
+  color: #1f1f1f;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.usp {
+  background-color: #1f1f1f;
+  color: #f0efe9;
+}
+.h6-usp {
+  color: #f0efe9;
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 60px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.p-usp {
+  color: #f0efe9;
+  font-family: "Proxima Nova", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 3rem;
+  padding-bottom: 50px;
+}
 @media screen and (min-width: 800px) {
   .ux-mindmap {
     width: 70%;
@@ -455,8 +482,16 @@ p {
 .next {
   text-decoration: none;
   font-weight: 600;
-  text-align: right;
+  text-align: center;
   font-size: 30px;
+}
+@media screen and (min-width: 800px) {
+  .next {
+    text-decoration: none;
+    font-weight: 600;
+    text-align: right;
+    font-size: 30px;
+  }
 }
 
 /* Navbar */
@@ -575,7 +610,7 @@ footer {
   background-color: #f0efe9;
   color: #1f1f1f;
   font-family: "Glacial Indifference", sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   padding-top: 30 px;
   padding-bottom: 100px;
   text-align: center;

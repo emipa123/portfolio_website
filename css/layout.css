@@ -187,6 +187,18 @@ main {
 }
 
 /* ux */
+.grid-1-1-ux img {
+  padding-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ux-grid1-1 {
+  padding-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (min-width: 800px) {
   .grid-1-1-ux {
     display: grid;
@@ -214,6 +226,10 @@ main {
   }
 }
 /* animation */
+.grid-6 {
+  display: flex;
+  justify-content: center;
+}
 @media (min-width: 800px) {
   .grid-6 {
     display: flex;
@@ -257,6 +273,18 @@ main {
   }
 }
 /* 06 portfolio */
+.grid-1-1-1-port img {
+  padding-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-1-1-port img {
+  padding-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media (min-width: 800px) {
   .grid-1-1-1-port {
     display: flex;
