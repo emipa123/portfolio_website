@@ -410,6 +410,7 @@ h4 {
 }
 
 /* Kontakt */
+
 .p-kontakt {
   font-size: 25px;
   color: #f0efe8;
@@ -431,6 +432,11 @@ h4 {
   padding-bottom: 50px;
 }
 @media screen and (min-width: 800px) {
+  .h1_kontakt {
+    color: #f0efe8;
+    text-align: center;
+    font-size: 80px;
+  }
   .p-kontakt {
     font-size: 30px;
     color: #f0efe8;
