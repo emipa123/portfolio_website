@@ -74,6 +74,9 @@
                 <a href="#section-22">
                     <h5>- AKTIVITETSDIAGRAM + STATEMACHINEDIAGRAM</h5>
                 </a>
+                <a href="#section-kode2">
+                    <h5>- KODE</h5>
+                </a>
             </div>
         </div>
 
@@ -195,7 +198,48 @@
                 indeholde. Diagrammet viser også de handlinger, der skal udføres for at skifte mellem tilstandene.</p>
 
             <img class="img-emne1" src="img/animation/smd.webp" alt="STATEMACHINEDIAGRAM">
+            <div id="section-kode2"></div>
+            <h6>KODER</h6>
+            <p>I dette tema lærte vi at anvende CSS-animationer og integrere JavaScript. I CSS-koden kan det ses, at jeg
+                har givet
+                animationen navnet "fall_kf", hvor "kf" står for keyframes. Derefter har jeg defineret, at animationen
+                skal vare i 3
+                sekunder og gentages uendeligt. Jeg har også angivet, at timingfunktionen skal være lineær, hvilket
+                betyder, at den
+                afspilles jævnt hver gang.
+                I @keyframes fall_kf-delen har jeg specificeret, at i 100% af animationens varighed skal elementet
+                translateres
+                (flyttes) med 500% af sin egen størrelse. Dette er gjort for at skabe en faldende effekt ned ad siden.
+                Samlet set viser dette, at jeg har anvendt CSS-animation til at oprette en "fall_kf" animation, der
+                varer 3 sekunder,
+                gentages uendeligt og får elementet til at bevæge sig med 500% af sin størrelse. Dette skaber en visuel
+                effekt af
+                elementets fald ned ad siden.</p>
+            <p> I JavaScript-koden kan det ses, hvordan jeg tilføjer funktionaliteten til at få den glade smiley
+                til at falde fra
+                tilfældige positioner og med tilfældige forsinkelser.
 
+                Jeg tilføjer en eventlistener til smiley-elementet med id'et "glad1", der lytter efter
+                "mousedown"-begivenheden, hvilket
+                betyder, at brugeren har klikket på smiley'en. Når dette sker, bliver funktionen "gladClickHandler"
+                udført. Dette giver
+                mulighed for at tilføje yderligere funktionalitet til at reagere på klikhændelser.
+
+                Jeg tilføjer også en eventlistener til "glad1", der lytter efter "animationiteration"-begivenheden,
+                hvilket indikerer,
+                at animationen på smiley'en er afsluttet og starter igen fra begyndelsen. Når dette sker, bliver
+                funktionen "gladReset"
+                udført. Dette giver mulighed for at nulstille eller gentage animationen.
+
+                Samme tilgang gentages for "glad2", hvor jeg opretter to smileys med tilsvarende funktionalitet. Dette
+                betyder, at både
+                "glad1" og "glad2" har eventlisteners til "mousedown" og "animationiteration", der udfører de
+                tilknyttede funktioner
+                "gladClickHandler" og "gladReset".</p>
+            <div class="grid-1-1-indhold">
+                <img src="img/animation/css-animation.webp" alt="css">
+                <img src="img/animation/js-animation.webp" alt="javasript">
+            </div>
         </div>
 
         <div class="grid-1-1-1-1-værktøjer">
