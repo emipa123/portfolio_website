@@ -78,30 +78,6 @@ h2 {
     font-size: 16px;
     text-align: center;
   }
-  .if-container {
-    position: absolute;
-    top: 55%;
-    right: 0;
-    transform: translate(0, -50%);
-    text-align: right;
-    padding-top: 250px;
-    padding-right: 250px;
-  }
-
-  .indholdsfortegnelse {
-    text-align: left;
-    margin-bottom: 40px;
-  }
-
-  .indholdsfortegnelse p {
-    margin-bottom: 20px; /* Adjust the value as needed */
-  }
-
-  .indholdsfortegnelse h3 {
-    color: #f0efe8;
-    font-family: "Glacial Indifference", sans-serif;
-    padding-bottom: 15px;
-  }
 }
 
 /* forside */
@@ -124,7 +100,7 @@ h2 {
 
 .box-2 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 .h1_port {
@@ -143,7 +119,7 @@ h2 {
 
 .button_forside {
   width: 80%;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -318,12 +294,13 @@ h2 {
   margin-top: -20px;
   font-weight: lighter;
 }
-.p-om {
+#p-om {
   color: #f0efe8;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   text-align: center;
   line-height: 2rem;
+  letter-spacing: 0;
   font-family: "Proxima Nova", sans-serif;
 }
 .grid_om {
@@ -374,8 +351,8 @@ h4 {
   }
   .h1_om {
     text-align: center;
-    font-size: 200px;
-    margin-top: -270px;
+    font-size: 180px;
+    margin-top: -200px;
     margin-right: 21px;
   }
   .h2_mig {
@@ -441,6 +418,18 @@ h4 {
   margin-bottom: 30px;
   text-align: center;
 }
+#p-info p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5rem;
+  font-family: "Proxima Nova", sans-serif;
+  color: #f0efe8;
+}
+
+#p-info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 @media screen and (min-width: 800px) {
   .p-kontakt {
     font-size: 30px;
@@ -448,6 +437,18 @@ h4 {
     font-weight: normal;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  #p-info p {
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.5rem;
+    font-family: "Proxima Nova", sans-serif;
+    color: #f0efe8;
+  }
+
+  #p-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 /* Navbar */
