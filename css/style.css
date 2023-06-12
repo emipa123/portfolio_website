@@ -96,6 +96,7 @@ h2 {
   width: 80%;
   margin: 0;
   align-self: flex-end;
+  margin-right: 15px;
 }
 
 .box-2 {
@@ -106,7 +107,7 @@ h2 {
 .h1_port {
   font-size: 60px;
   margin-left: 20px;
-  margin-bottom: 20px;
+
   text-align: left;
 }
 
@@ -316,7 +317,7 @@ h2 {
 }
 h3 {
   color: #f0efe8;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
   margin-top: 30px;
@@ -324,7 +325,7 @@ h3 {
 }
 h4 {
   color: #f0efe8;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   text-align: left;
   margin-top: 0px;

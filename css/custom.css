@@ -119,6 +119,7 @@ p {
   color: #98a5c2;
   text-decoration: none;
   font-weight: 600;
+  font-size: 21px;
 }
 
 .button_opgave {
@@ -207,9 +208,12 @@ p {
     transform: translate(0, -50%);
     text-align: right;
     margin-left: 1000px;
-    margin-top: 100px;
+    margin-top: 80px;
   }
-
+  .indholdsfortegnelse a {
+    font-weight: 600;
+    font-size: 18px;
+  }
   .indholdsfortegnelse {
     text-align: left;
     margin-bottom: 40px;
@@ -492,12 +496,16 @@ p {
   text-align: center;
   font-size: 30px;
 }
+
 @media screen and (min-width: 800px) {
   .next {
     text-decoration: none;
     font-weight: 600;
     text-align: right;
     font-size: 30px;
+  }
+  .next a:hover {
+    color: #98a5c2;
   }
 }
 
