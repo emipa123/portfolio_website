@@ -466,6 +466,9 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
+  .p-animation {
+    margin-top: -80px;
+  }
 }
 /* Indhold */
 .video {
