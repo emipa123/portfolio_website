@@ -246,12 +246,38 @@ main {
   gap: 10px;
   justify-content: center;
 }
+.grid-1-1-skitse {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.grid-1-1-skitse img {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
 @media (min-width: 800px) {
   .grid-6 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     justify-content: center;
+  }
+  .grid-1-1-skitse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+
+  .grid-1-1-skiste-img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
   }
 }
 

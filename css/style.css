@@ -123,6 +123,7 @@ h2 {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 800px) {
@@ -570,11 +571,11 @@ nav {
 /* Footer */
 footer {
   background-color: #1f1f1f;
-  color: #f0efe8;
+  color: #f0efe9;
   font-family: "Glacial Indifference", sans-serif;
-  letter-spacing: 1px;
-  padding-top: 60px;
-  padding-bottom: 30px;
+  letter-spacing: 0px;
+  padding-top: 30 px;
+  padding-bottom: 100px;
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
@@ -582,7 +583,7 @@ footer {
 .icon-container {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .icon {
@@ -601,8 +602,7 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #1f1f1f;
-    color: #f0efe8;
-    margin-top: 200px;
+    color: #f0efe9;
   }
 
   .icon-container {
