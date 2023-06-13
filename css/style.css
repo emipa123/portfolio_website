@@ -142,6 +142,9 @@ img a {
   margin-bottom: 50px;
   font-family: "Glacial Indifference", sans-serif;
 }
+.button_forside a {
+  font-family: "Glacial Indifference", sans-serif;
+}
 
 @media screen and (min-width: 800px) {
   main {
@@ -198,6 +201,9 @@ img a {
     margin-right: 900px;
     position: relative;
     top: -300px;
+    font-family: "Glacial Indifference", sans-serif;
+  }
+  .button_forside a {
     font-family: "Glacial Indifference", sans-serif;
   }
 }
