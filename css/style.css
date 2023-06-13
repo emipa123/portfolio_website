@@ -64,7 +64,18 @@ a {
   font-family: "Glacial Indifference", sans-serif;
 }
 
+img a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-family: "Glacial Indifference", sans-serif;
+}
+
 @media screen and (min-width: 800px) {
+  img a {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-family: "Glacial Indifference", sans-serif;
+  }
   h1 {
     color: #f0efe8;
     text-align: center;
